@@ -1,3 +1,3 @@
-<<<<<<< yo what up
+yo what up
 =======
 # phaser-project
