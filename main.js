@@ -1,6 +1,12 @@
-import {player} from "player.js";
+// Marco Sanico
+// i don't remember the date i started this
+// CIS223
+// Main project file for final project
 
-var config = {
+// import {player} from "player.js";
+// once i figure out how importing works for both javascript and phaser i'll uncomment this and move everything
+
+var config = { // config for the game window
     type: Phaser.AUTO,
     width: 800,
     height: 1000,
@@ -20,7 +26,7 @@ function preload(){ // loads all assets necessary for the game BEFORE it starts
 
 function create(){ // after loading the assets, they are actually used by this function
     this.add.image(600, 800, 'obama');
-    player = this.physics.add.sprite((50, 50, 'assets/obama.jpg'));
+    player = this.physics.add.sprite((50, 50, 'assets/obama.jpg'));3
     
 }
 
